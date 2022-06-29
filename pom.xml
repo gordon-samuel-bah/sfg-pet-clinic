@@ -14,7 +14,7 @@
 	</parent>
 	<groupId>com.bah</groupId>
 	<artifactId>pet-clinic-project</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<name>pet-clinic-project</name>
 	<description>Pet Clinic Project from Spring Framework Beginner to Guru</description>
 	<properties>
@@ -49,7 +49,7 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/gordon-samuel-bah/sfg-pet-clinic.git</developerConnection>
-	  <tag>pet-clinic-project-0.0.1</tag>
+	  <tag>pet-clinic-project-0.0.2</tag>
   </scm>
 
 </project>
