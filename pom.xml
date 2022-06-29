@@ -14,7 +14,7 @@
 	</parent>
 	<groupId>com.bah</groupId>
 	<artifactId>pet-clinic-project</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>pet-clinic-project</name>
 	<description>Pet Clinic Project from Spring Framework Beginner to Guru</description>
 	<properties>
