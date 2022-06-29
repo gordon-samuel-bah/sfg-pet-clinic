@@ -47,4 +47,8 @@
 		</plugins>
 	</build>
 
+	<scm>
+		<developerConnection>scm:git:https://github.com/gordon-samuel-bah/sfg-pet-clinic.git</developerConnection>
+	</scm>
+
 </project>
