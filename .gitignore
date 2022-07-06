@@ -142,6 +142,4 @@ Desktop.ini
 .eslintcache
 /.idea/
 /petclinicdata/target/
-/petclinicweb/target/
-/petclinicdata/target/
 */target/*
