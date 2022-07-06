@@ -140,4 +140,5 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
-/petclinicweb/target/
+/.idea/
+/petclinicdata/target/
