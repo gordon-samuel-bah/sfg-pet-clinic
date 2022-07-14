@@ -11,10 +11,15 @@ import java.util.Set;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 @Entity
 @Table(name = "pets")
 public class Pet extends BaseEntity{
+
+    @Builder
+    public Pet (Long id, String name) {
+        super(id);
+        this.name = name;
+    }
 
     @ManyToOne
     @JoinColumn(name = "type_id")
