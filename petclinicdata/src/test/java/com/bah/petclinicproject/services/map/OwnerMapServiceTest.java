@@ -1,7 +1,6 @@
 package com.bah.petclinicproject.services.map;
 
 import com.bah.petclinicproject.model.Owner;
-import com.bah.petclinicproject.services.PetService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
