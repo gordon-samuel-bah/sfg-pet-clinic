@@ -16,9 +16,15 @@ import java.util.Set;
 public class Pet extends BaseEntity{
 
     @Builder
-    public Pet (Long id, String name) {
+    public Pet (Long id, String name, PetType petType, Owner owner, LocalDate birthDate, Set<Visit> visits) {
         super(id);
         this.name = name;
+        this.petType = petType;
+        this.owner = owner;
+        this.birthDate = birthDate;
+        if (visits == null || visits.size() > 0) {
+            this.visits = visits;
+        }
     }
 
     @ManyToOne
@@ -29,7 +35,7 @@ public class Pet extends BaseEntity{
     @JoinColumn(name = "owner_id")
     private Owner owner;
 
-    @Column(name = "birthday")
+    @Column(name = "birth_date")
     private LocalDate birthDate;
 
     @Column(name = "name")

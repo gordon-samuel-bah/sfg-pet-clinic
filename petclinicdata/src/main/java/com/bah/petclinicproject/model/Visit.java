@@ -17,8 +17,8 @@ public class Visit extends BaseEntity {
     @Column(name = "date")
     private LocalDate date;
 
-    @Column(name = "decription")
-    private String decription;
+    @Column(name = "description")
+    private String description;
 
     @ManyToOne
     @JoinColumn(name = "pet_id")
